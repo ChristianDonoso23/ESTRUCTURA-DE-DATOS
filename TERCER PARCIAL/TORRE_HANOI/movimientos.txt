@@ -1,0 +1,7 @@
+Disco movido de la torre 4 a la torre 2.
+Disco movido de la torre 4 a la torre 1.
+Disco movido de la torre 2 a la torre 1.
+Disco movido de la torre 4 a la torre 2.
+Disco movido de la torre 1 a la torre 4.
+Disco movido de la torre 1 a la torre 2.
+Disco movido de la torre 4 a la torre 2.

@@ -1,0 +1,6 @@
+void funcionOlogN_A(int n) {
+    int i = 1;
+    while (i < n) {
+        i *= 2; // Crecimiento logarítmico
+    }
+}

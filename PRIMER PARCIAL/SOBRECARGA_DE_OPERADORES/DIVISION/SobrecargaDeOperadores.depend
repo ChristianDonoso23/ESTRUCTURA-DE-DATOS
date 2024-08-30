@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1716169874 source:e:\pc\documents\documentos christian\tercer semestre\estructura de datos\c++\sobrecargadeoperadores\racional.cpp
+	<iostream>
+	"Racional.h"
+
+1716170115 e:\pc\documents\documentos christian\tercer semestre\estructura de datos\c++\sobrecargadeoperadores\racional.h
+	<iostream>
+
+1716170158 source:e:\pc\documents\documentos christian\tercer semestre\estructura de datos\c++\sobrecargadeoperadores\main.cpp
+	<iostream>
+	"Racional.h"
+

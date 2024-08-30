@@ -1,0 +1,105 @@
+//cambiar estas funciones en el archivo codigo.txt para poder ver la grafica y el tiempo de ejecucion de la funcion
+
+
+
+
+// O(1): Tiempo constante
+void funcionO1_A() {
+    int a = 7;
+    int b = a * 2; // Operaciones constantes
+}
+
+void funcionO1_B() {
+    cout << "Hello, World!"; // Operación constante
+}
+
+// O(log n): Tiempo logarítmico
+void funcionOlogN_A(int n) {
+    int i = 1;
+    while (i < n) {
+        i *= 2; // Crecimiento logarítmico
+    }
+}
+
+void funcionOlogN_B(int n) {
+    for (int i = n; i >= 1; i /= 2) {
+        // Operaciones logarítmicas (división repetida)
+    }
+}
+
+// O(n): Tiempo lineal
+void funcionOn_A(int n) {
+    int suma = 0;
+    for (int i = 0; i < n; ++i) {
+        suma += i; // Operaciones lineales
+    }
+}
+
+void funcionOn_B(int n) {
+    for (int i = 0; i < n; ++i) {
+        cout << i << " "; // Operaciones lineales
+    }
+}
+
+// O(n log n): Tiempo lineal-logarítmico
+void funcionOnLogN_A(int n) {
+    for (int i = 0; i < n; ++i) {
+        for (int j = 1; j <= log2(n); ++j) {
+            // Operaciones logarítmicas dentro de un bucle lineal
+        }
+    }
+}
+
+void funcionOnLogN_B(int n) {
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < n; j *= 2) {
+            // Operaciones logarítmicas dentro de un bucle lineal
+        }
+    }
+}
+
+// O(n^2): Tiempo cuadrático
+void funcionOn2_A(int n) {
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < n; ++j) {
+            // Operaciones cuadráticas
+        }
+    }
+}
+
+void funcionOn2_B(int n) {
+    int suma = 0;
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < n; ++j) {
+            suma += i + j; // Operaciones cuadráticas
+        }
+    }
+}
+
+// O(2^n): Tiempo exponencial
+void funcionO2n_A(int n) {
+    if (n <= 0) return;
+    funcionO2n_A(n - 1); // Llamada recursiva exponencial
+    funcionO2n_A(n - 1); // Llamada recursiva exponencial
+}
+
+void funcionO2n_B(int n) {
+    if (n <= 1) return;
+    funcionO2n_B(n - 1); // Llamada recursiva exponencial
+    funcionO2n_B(n - 1); // Llamada recursiva exponencial
+}
+
+// O(n!): Tiempo factorial
+void funcionOnFact_A(int n) {
+    if (n <= 1) return;
+    for (int i = 0; i < n; ++i) {
+        funcionOnFact_A(n - 1); // Llamada recursiva factorial
+    }
+}
+
+void funcionOnFact_B(int n) {
+    if (n <= 1) return;
+    for (int i = 0; i < n; ++i) {
+        funcionOnFact_B(n - 1); // Llamada recursiva factorial
+    }
+}

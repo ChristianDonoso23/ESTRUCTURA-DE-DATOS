@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1715960241 source:d:\estructurasdonoso\sobrecargaoperadores\frac.cpp
+	<iostream>
+	"Frac.h"
+
+1715960212 d:\estructurasdonoso\sobrecargaoperadores\frac.h
+	<iostream>
+
+1715960336 source:f:\estructura de datos\sobrecarga_de_operadores\main.cpp
+	<iostream>
+	"Frac.h"
+
+1715960214 f:\estructura de datos\sobrecarga_de_operadores\frac.h
+	<iostream>
+
+1715960242 source:f:\estructura de datos\sobrecarga_de_operadores\frac.cpp
+	<iostream>
+	"Frac.h"
+
